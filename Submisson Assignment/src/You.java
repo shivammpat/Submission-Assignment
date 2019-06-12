@@ -1,13 +1,15 @@
+import java.io.File;
+
 /**
- * 
+ *
  * @author //Put your first and last name here
- * 
- * 
+ *
+ *
  * Assignment Instructions:
  * 	Write the following constructors and methods:
  * 	- You() : Sets all private global variables to your information
  * 	- String getFullName() : Returns a String of your first and last name with a space in between
- * 	- String setFavoriteAnimal(String animal) : Sets favoriteAnimal to animal and returns it 
+ * 	- String setFavoriteAnimal(String animal) : Sets favoriteAnimal to animal and returns it
  * 	- int happyBirthday() : Prints out "Happy Birthday!", increases age by 1, and returns it
  *
  * Submission Instructions:
@@ -25,6 +27,33 @@ public class You{
 	private String favoriteAnimal;
 	private int age;
 
+	public You ()
+	{
+		firstName = "Shivam";
+		lastName = "Patel";
+		favoriteAnimal = "Dog";
+		age = 15;
+	}
+
+	public String getFirstName()
+	{
+		return firstName;
+	}
+
+	public String getLastName()
+	{
+		return lastName;
+	}
+
+	public String getFavoriteAnimal()
+	{
+		return favoriteAnimal;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
 	// Write your code here
-	
+
 }
